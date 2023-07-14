@@ -1,0 +1,42 @@
+
+.animateletter{
+ 
+    stroke-dasharray: 1200;
+    animation: writeLetter 3s infinite ease-out;
+}
+.animateletterslow{
+ 
+  stroke-dasharray: 400;
+  animation: writeLetterslow 4s infinite ease-out;
+}
+
+@keyframes writeLetterslow {
+  0% {
+    stroke-dashoffset:400;
+  }
+  90% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes writeLetter {
+  0% {
+    stroke-dashoffset: 1200;
+  }
+  80% {
+    stroke-dashoffset: 0;
+  }
+}
+.letter_matra {
+    stroke-dasharray: 1000;
+    animation: writeMatra 3s infinite ease-in;
+  }
+  
+  @keyframes writeMatra {
+    0%,
+    70% {
+      stroke-dashoffset: 1000;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
