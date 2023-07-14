@@ -18,7 +18,7 @@ html{
     display: grid;
     place-content: center;
     background-color: #b7e279;
-    background-image: url(wall2.jpg);
+    background-image: url('./wall2.jpg');
     background-repeat: repeat-x;
     scroll-behavior: smooth;
  
